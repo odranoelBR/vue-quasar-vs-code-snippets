@@ -1,0 +1,87 @@
+{
+	//Cards
+	"QCard+main": {
+		"prefix": "q-card1",
+		"body": [
+			"<q-card>",
+			"\t<q-card-main>",
+			"\t$2",
+			"\t</q-card-main>",
+			"</q-card>"
+		],
+		"description": "QCard + QCardMain"
+	},
+	"QCard+title+main": {
+		"prefix": "q-card2",
+		"body": [
+			"<q-card>",
+			"\t<q-card-title>$1</q-card-title>",
+			"\t<q-card-main>$2</q-card-main>",
+			"</q-card>"
+		],
+		"description": "QCard + QCardTitle + QCardMain"
+	},
+	"QCard+media+title+main": {
+		"prefix": "q-card3",
+		"body": [
+			"<q-card>",
+			"\t<q-card-media>$1</q-card-media>",
+			"\t<q-card-title>$2</q-card-title>",
+			"\t<q-card-main>$3</q-card-main>",
+			"</q-card>"
+		],
+		"description": "QCard + QCardMedia + QCardTitle + QCardMain"
+	},
+	"QCard+media+title+main+actions": {
+		"prefix": "q-card4",
+		"body": [
+			"<q-card>",
+			"\t<q-card-media>$1</q-card-media>",
+			"\t<q-card-title>$2</q-card-title>",
+			"\t<q-card-main>$3</q-card-main>",
+			"\t<q-card-actions>$4</q-card-actions>",
+			"</q-card>"
+		],
+		"description": "QCard + QCardMedia + QCardTitle + QCardMain + QCardActions"
+	},
+	// Collapsible
+	"QCollapsible": {
+		"prefix": "q-collapsible",
+		"body": [
+			"<q-list>",
+			"\t<q-collapsible label=''></q-collapsible>",
+			"</q-list>"
+		],
+		"description": "QCard + QCardMedia + QCardTitle + QCardMain + QCardActions"
+	},
+	"QAccordion": {
+		"prefix": "q-accordion",
+		"body": [
+			"<q-list>",
+			"\t<q-collapsible group='somegroup' label=''></q-collapsible>",
+			"\t<q-collapsible group='somegroup' label=''></q-collapsible>",
+			"</q-list>"
+		],
+		"description": "QCard + QCardMedia + QCardTitle + QCardMain + QCardActions"
+	},
+	"QDataTable": {
+		"prefix": "q-data-table",
+		"body": [
+			"<q-data-table",
+			" :data='table'",
+			" :config='config'",
+			" :columns='columns'",
+			" @refresh='refresh' >",
+			"",
+			"</q-data-table>"
+		],
+		"description": "QCard + QCardMedia + QCardTitle + QCardMain + QCardActions"
+	}
+	// QDataTable
+	
+ 
+  
+  
+  
+>
+}
