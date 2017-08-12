@@ -1,4 +1,5 @@
-# QuasarJS Snippets for Visual Studio Code
+![Quasar VSCode Snippets](https://github.com/odranoelBR/vue-quasar-vs-code-snippets/blob/master/img/Logo.png)
+
 
 > Because auto complete help and boost our work.
 
@@ -8,11 +9,7 @@
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-For example:
-This extension contributes the following settings:
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+...
 
 ## Features
 
@@ -23,4 +20,3 @@ This extension contributes the following settings:
 * Based on v0.14+ API of QuasarJS
 * Published on ...
 
-**Enjoy!**
