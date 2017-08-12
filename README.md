@@ -9,7 +9,7 @@
 
 ## Extension Settings
 
-<Not Published yet...>
+* Not Published yet...
 
 ## Features
 * Component snippets
