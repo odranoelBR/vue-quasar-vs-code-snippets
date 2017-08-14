@@ -40,7 +40,7 @@
         "snippets": [
              {
                 "language": "vue",
-                "path": "./snippets/html.json"
+                "path": "./snippets/components/grouping.json"
             }
         ]
     }

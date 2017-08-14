@@ -1,0 +1,162 @@
+{
+	//Cards
+	"QCard+main": {
+		"prefix": "q-card1",
+		"body": [
+			"<q-card>",
+			"\t<q-card-main>",
+			"\t$2",
+			"\t</q-card-main>",
+			"</q-card>"
+		],
+		"description": "QCard + QCardMain"
+	},
+	"QCard+title+main": {
+		"prefix": "q-card2",
+		"body": [
+			"<q-card>",
+			"\t<q-card-title>$1</q-card-title>",
+			"\t<q-card-main>$2</q-card-main>",
+			"</q-card>"
+		],
+		"description": "QCard + QCardTitle + QCardMain"
+	},
+	"QCard+media+title+main": {
+		"prefix": "q-card3",
+		"body": [
+			"<q-card>",
+			"\t<q-card-media>$1</q-card-media>",
+			"\t<q-card-title>$2</q-card-title>",
+			"\t<q-card-main>$3</q-card-main>",
+			"</q-card>"
+		],
+		"description": "QCard + QCardMedia + QCardTitle + QCardMain"
+	},
+	"QCard+media+title+main+actions": {
+		"prefix": "q-card4",
+		"body": [
+			"<q-card>",
+			"\t<q-card-media>$1</q-card-media>",
+			"\t<q-card-title>$2</q-card-title>",
+			"\t<q-card-main>$3</q-card-main>",
+			"\t<q-card-actions>$4</q-card-actions>",
+			"</q-card>"
+		],
+		"description": "QCard + QCardMedia + QCardTitle + QCardMain + QCardActions"
+	},
+	// Collapsible
+	"QCollapsible": {
+		"prefix": "q-collapsible",
+		"body": [
+			"<q-list>",
+			"\t<q-collapsible label=''></q-collapsible>",
+			"</q-list>"
+		],
+		"description": "QList + QCollapsible"
+	},
+	"QAccordion": {
+		"prefix": "q-accordion",
+		"body": [
+			"<q-list>",
+			"\t<q-collapsible group='somegroup' label=''></q-collapsible>",
+			"\t<q-collapsible group='somegroup' label=''></q-collapsible>",
+			"</q-list>"
+		],
+		"description": "QList + QCollapsible (group)"
+	},
+	// QDataTable
+	"QDataTable": {
+		"prefix": "q-data-table",
+		"body": [
+			"<q-data-table",
+			" :data='table'",
+			" :config='config'",
+			" :columns='columns'",
+			" @refresh='refresh' >",
+			"",
+			"</q-data-table>"
+		],
+		"description": "QCard + QCardMedia + QCardTitle + QCardMain + QCardActions"
+	},
+	// QList
+	"QList": {
+		"prefix": "q-list",
+		"body": [
+			"<q-list>",
+			"\t<q-list-header>$1</q-list-header>",
+			"\t<q-item>",
+			"\t\t<q-item-side>$2</q-item-side>",
+			"\t\t<q-item-main>",
+			"\t\t\t$3",
+			"\t\t</q-item-main>",
+			"\t\t<q-item-side>$4</q-item-side>",
+			"\t</q-item>",
+			"</q-list>"
+		],
+		"description": "QList + QListHeader + QItem + QItemSide + QItemMain + QItemSide"
+	},
+	"QItem": {
+		"prefix": "q-item",
+		"body": [
+			"<q-item>",
+			"\t<q-item-side>$1</q-item-side>",
+			"\t<q-item-main>",
+			"\t\t$2",
+			"\t</q-item-main>",
+			"\t<q-item-side>$3</q-item-side>",
+			"</q-item>"
+		],
+		"description": "QItem + QItemSide + QItemMain + QItemSide"
+	},
+	//QCarousel
+	"QCarousel": {
+		"prefix": "q-carousel",
+		"body": [
+			"<q-carousel>",
+			"\t<div slot='slide'>",
+			"\t$1",
+			"\t</div>",
+			"\t<div slot='slide'>",
+			"\t$2",
+			"\t</div>",
+			"</q-carousel>"
+		],
+		"description": "QCarousel"
+	},
+	//QStepper
+	"QStepper": {
+		"prefix": "q-stepper",
+		"body": [
+			"<q-stepper ref='stepper'",
+			"\t<q-step default title='$1'>",
+			"\t\t$2",
+			"\t</q-step>",
+			"\t<q-step title='$3'>",
+			"\t\t$4",
+			"\t</q-step>",
+			"\t<q-stepper-navigation>",
+			"\t\t$5",
+			"\t</q-stepper-navigation>",
+			"</q-stepper>"
+		],
+		"description": "QStepper + QStep + QStepperNavigation"
+	},
+	"QStep": {
+		"prefix": "q-step",
+		"body": [
+			"<q-step title='$1'>",
+			"\t$2",
+			"</q-step>"
+		],
+		"description": "QStep"
+	},
+	"QStepperNavigation": {
+		"prefix": "q-stepper-navigation",
+		"body": [
+			"<q-stepper-navigation>",
+			"\t$1",
+			"</q-stepper-navigation>"
+		],
+		"description": "QStepperNavigation"
+	}
+}
